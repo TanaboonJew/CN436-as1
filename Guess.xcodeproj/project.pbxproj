@@ -14,6 +14,7 @@
 		317E37032B625D1400D50DA4 /* GuessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317E37022B625D1400D50DA4 /* GuessTests.swift */; };
 		317E370D2B625D1400D50DA4 /* GuessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317E370C2B625D1400D50DA4 /* GuessUITests.swift */; };
 		317E370F2B625D1400D50DA4 /* GuessUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317E370E2B625D1400D50DA4 /* GuessUITestsLaunchTests.swift */; };
+		317E371D2B6260E400D50DA4 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317E371C2B6260E400D50DA4 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		317E37082B625D1400D50DA4 /* GuessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		317E370C2B625D1400D50DA4 /* GuessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessUITests.swift; sourceTree = "<group>"; };
 		317E370E2B625D1400D50DA4 /* GuessUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		317E371C2B6260E400D50DA4 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		317E36F02B625CFC00D50DA4 /* Guess */ = {
 			isa = PBXGroup;
 			children = (
+				317E371B2B6260D300D50DA4 /* Model */,
 				317E36F12B625CFC00D50DA4 /* GuessApp.swift */,
 				317E36F32B625CFC00D50DA4 /* ContentView.swift */,
 				317E36F52B625D1400D50DA4 /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				317E370E2B625D1400D50DA4 /* GuessUITestsLaunchTests.swift */,
 			);
 			path = GuessUITests;
+			sourceTree = "<group>";
+		};
+		317E371B2B6260D300D50DA4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				317E371C2B6260E400D50DA4 /* Game.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				317E36F42B625CFC00D50DA4 /* ContentView.swift in Sources */,
+				317E371D2B6260E400D50DA4 /* Game.swift in Sources */,
 				317E36F22B625CFC00D50DA4 /* GuessApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
