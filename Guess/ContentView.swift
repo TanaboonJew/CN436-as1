@@ -17,6 +17,7 @@ struct ContentView: View {
         VStack {
             Text("Guess the right number 1 - 100")
             TextField("Input Number Here", value: $guess, formatter: NumberFormatter())
+                .multilineTextAlignment(.center)
             Button("Guess") {
                 game.check(guess: guess)
                 if game.diff == 0 {
